@@ -1,0 +1,21 @@
+# Configuracao do AMCL (Adaptive Monte Carlo Localization)
+min_particles: 500       # Numero minimo de particulas (estimativas)
+max_particles: 3000      # Numero maximo
+update_min_d: 0.2        # Atualiza a localizacao se o robo se mover 20cm
+update_min_a: 0.3        # Atualiza se o robo girar 0.3 rad
+
+# Parametros do Lidar
+laser_model_type: likelihood_field
+laser_max_beams: 100     # Usa um subconjunto dos raios para ser mais rapido
+
+# Parametros do modelo de Odometria (tracao diferencial)
+odom_model_type: diff
+odom_alpha1: 0.1
+odom_alpha2: 0.1
+odom_alpha3: 0.1
+odom_alpha4: 0.1
+
+# Frames
+odom_frame_id: odom
+base_frame_id: base_link
+global_frame_id: map

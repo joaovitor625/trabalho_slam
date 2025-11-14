@@ -1,0 +1,12 @@
+# Define o "para-choque" fisico do robo (footprint)
+# Ajuste estas medidas para o tamanho real do seu Pioneer 3DX
+# (Ex: 0.5m de comprimento, 0.4m de largura)
+footprint: [[0.25, 0.2], [0.25, -0.2], [-0.25, -0.2], [-0.25, 0.2]]
+
+# Distancia (metros) para "inflar" os obstaculos.
+# Faz o robo manter uma distancia segura das paredes.
+inflation_radius: 0.1
+
+
+
+

@@ -1,0 +1,24 @@
+# config/dwa_local_planner_params.yaml
+# ATENCAO: REMOVIDA a chave "DWAPlannerROS:" do topo
+
+# --- Parametros de Velocidade ---
+max_vel_x: 0.35
+min_vel_x: 0.0
+max_vel_y: 0.0
+min_vel_y: 0.0
+max_vel_theta: 1.0  # <--- Corrigido de max_rot_vel
+min_vel_theta: 0.2  # <--- Corrigido de min_rot_vel
+acc_lim_x: 2.0
+acc_lim_theta: 3.0
+acc_lim_y: 0.0
+
+# --- Parametros de Trajetoria ---
+sim_time: 1.7
+controller_frequency: 10.0
+
+# --- Parametros de Meta ---
+xy_goal_tolerance: 0.30
+yaw_goal_tolerance: 0.30
+
+# --- Parametro de Tolerancia de TF ---
+transform_tolerance: 5.0 # <--- Agora sera lido
