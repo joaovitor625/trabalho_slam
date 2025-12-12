@@ -198,7 +198,7 @@ rviz -d $(rospack find trabalho_slam)/rviz/navegacao.rviz
 - [Move Base Documentation](http://wiki.ros.org/move_base)
 - [DWA Local Planner](http://wiki.ros.org/dwa_local_planner)
 
-## 👤 Autor
+## 👤 Autores
 
 **Desenvolvedores:**
 - João Vitor Barbosa Pinheiro
