@@ -198,6 +198,14 @@ rviz -d $(rospack find trabalho_slam)/rviz/navegacao.rviz
 - [Move Base Documentation](http://wiki.ros.org/move_base)
 - [DWA Local Planner](http://wiki.ros.org/dwa_local_planner)
 
+## 🎥 Apresentação e Demonstrações
+
+**Slides da Apresentação:**
+- [Apresentação do Trabalho - Google Slides](https://docs.google.com/presentation/d/1Y04CGF3RwLKjVVC3wcKFmnjikhf2J-xpxAyujM3bCuY/edit?usp=sharing)
+
+**Vídeos de Demonstração:**
+- Vídeos demonstrando o funcionamento do projeto estão disponíveis na apresentação acima
+
 ## 👤 Autores
 
 **Desenvolvedores:**
